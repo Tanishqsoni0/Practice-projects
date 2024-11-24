@@ -1,0 +1,40 @@
+p{
+    width: 280px;
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Heading{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.Stats{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.Author{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.Content{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.Apple-text{
+    margin-top: 50px;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 17px;
+}
+.Shop-now{
+    font-family: arial;
+    font-size: 14px;
+}
+.Shop-now:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

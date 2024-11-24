@@ -1,0 +1,56 @@
+
+    .Subscribe{
+        color: rgb(255, 255, 255);
+        background-color: rgb(171, 6, 6);
+        border: none;
+        border-radius: 2px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 25px;
+        margin-right: 10px;
+        transition: opacity 0.5s;
+    }
+    .Subscribe:hover{
+        opacity: 0.75;
+    }
+    .Subscribe:active{
+        opacity: 0.5;
+    }
+    .Join{
+        color: rgb(41, 151, 255);
+        background-color: rgb(255, 255, 255);
+        border-radius: 2px;
+        border-color: rgb(41, 151, 255);
+        width: 100px;
+        height: 50px;
+        border-width: 1px;
+        cursor: pointer;
+        border-style: solid;
+        font-size: 25px; 
+        margin-right: 10px; 
+        transition: background-color 0.4s; 
+        transition: color 0.4s; 
+    }
+    .Join:hover{
+        background-color: rgb(41, 151, 255);
+        color: white;
+    }
+    .Join:active{
+        opacity: 0.8;
+    }
+    .Tweet{
+        color: rgb(255, 255, 255);
+        background-color: rgb(41, 151, 255);
+        border-radius: 25px;
+        border: none;
+        width: 100px;
+        height: 50px;
+        border-width: 1px;
+        cursor: pointer;
+        font-size: 25px; 
+        font-weight: bold;
+    }
+    .Tweet:hover{
+        box-shadow: 0px 5px 6px rgb(201, 201, 201);
+    }

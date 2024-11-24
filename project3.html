@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+</head>
+<body>
+    <p>
+        Amazon shipping calculator <br><br>
+        Orders under $40 = +$10 shipping. <br><br> 
+        Orders over $40 = FREE shipping.
+    </p>
+    <input 
+    class="js_price" 
+    type="text" 
+    placeholder="Cost of Order" 
+    onkeydown="
+        if(event.key === 'Enter'){
+            calculation();
+        }
+    ">
+    <button onclick="
+        calculation();
+    ">
+        Calculate
+    </button>
+    <p class="total_price"></p>
+    <script src="project3.js"></script>
+</body>
+</html>
